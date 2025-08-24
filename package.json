@@ -1,0 +1,26 @@
+{
+  "name": "blackchat",
+  "version": "0.0.1",
+  "description": "Chat servers can be started via the terminal interface, and private chats can be conducted by connecting to the servers in the same way.",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lumen142/BlackChat.git"
+  },
+  "author": "Lumen142",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lumen142/BlackChat/issues"
+  },
+  "homepage": "https://github.com/Lumen142/BlackChat#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  }
+}
